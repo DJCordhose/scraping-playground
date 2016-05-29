@@ -1,0 +1,16 @@
+{
+  "name": "casperjs-playground",
+  "version": "1.0.0",
+  "scripts": {
+    "selftest": "casperjs selftest",
+    "phantomjs": "phantomjs phantom-page-load.js http://www.google.com",
+    "casper": "casperjs casper-scraping.js",
+    "webdriver": "node webdriver.js",
+    "ghostdriver": "phantomjs --webdriver=4444",
+    "selenium": "java -jar ./selenium/selenium-server-standalone-2.53.0.jar"
+  },
+  "dependencies": {
+    "casperjs": "^1.1.1",
+    "webdriverio": "^4.0.9"
+  }
+}
